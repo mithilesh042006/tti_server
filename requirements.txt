@@ -1,0 +1,4 @@
+Django
+Pillow
+huggingface_hub
+django-cors-headers
