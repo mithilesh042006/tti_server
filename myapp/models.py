@@ -6,7 +6,7 @@ import uuid
 class GeneratedImage(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     prompt = models.TextField()
-    image = models.ImageField(upload_to='')
+    image = models.ImageField(upload_to='generated_images/')
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

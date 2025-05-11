@@ -56,7 +56,7 @@ MIDDLEWARE = [
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
-MEDIA_ROOT = '/tmp'
+# MEDIA_ROOT = '/tmp'
 # MEDIA_URL = '/media/'
 ROOT_URLCONF = 'server.urls'
 
